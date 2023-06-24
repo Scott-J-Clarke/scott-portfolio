@@ -58,39 +58,48 @@ body {
 .content {
     margin-left: 20px;
     font-size: 24px;
-    margin-bottom: 20px;
     padding: 50px;
 } 
 
 .paragraph {
-    font-family: Verdana, Helvetica, sans-serif;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap; 
     justify-content: start;
-    width: 1600px;
+    width: 95%;
     border: 15px solid var(--purple);
     padding: 50px;
     margin: 20px;
 }
 
-.content ul {
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+/* .paragraph li {
+    list-style-type: circle;
+} */
+
+#list. {
+    display: list-item;
+    list-style-type: circle;
 }
 
-.content ul li {
+#scott-picture {
+    height: 15%;
+    width: 15%;
+    float: right;
+}
+
+.content ul {
+    margin: 20px; 
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
-.content ul li a {
+.content ul a {
     color: black;
     text-decoration: none;
 }
 
-.content ul li a:hover {
+.content ul a:hover {
     color: var(--purple);
     transition: .5s ease-in;
     cursor: pointer;
