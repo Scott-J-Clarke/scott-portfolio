@@ -48,12 +48,20 @@ header a:hover {
 }
 
 #subtitle {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h2 {
     font-family: 'Bahnschrift', Arial, sans-serif;
-    font-size: 24px;
-    
+    font-size: 200%;
+    font-weight: lighter;
+    float: right;
+    margin-right: 4%;
+}
+
+#about-me, #work, #contact-me {
+    font-size: 32px;
 }
 
 body {
@@ -66,72 +74,66 @@ body {
     padding: 50px;
 } 
 
-.paragraph {
+#picture-format {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-    justify-content: start;
-    width: 95%;
-    border: 15px solid var(--purple);
-    padding: 50px;
-    margin: 20px;
-}
-
-.paragraph li {
-    list-style-type: circle;
-}
-
-#work-subtitle {
-    font-weight: normal;
+    justify-content: space-between;
+    border: solid var(--purple) 15px;
 }
 
 #scott-picture { 
     height: 15%;
     width: 15%;
+    margin: auto 2.5% auto 10px;
 }
 
-#tpt-logo {
-    height: 100%;
-    width: 100%;
+#work-subtitle {
+    font-weight: normal;
+    margin: 2.5% 2.5%;
 }
 
-#rip-through {
-    height: 80%;
-    width: 80%;
-}
-
-#thoughts {
-    height: 65%;
-    width: 65%;
+#work-format {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    border: solid var(--purple) 15px;
 }
 
 #gallery {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
- }
-
-.gallery_img {
-    width: 80%;    
+    flex-wrap: wrap;
+    padding: 2.5%;
+    margin: 1%;
+    justify-content: space-evenly;
 }
 
-.content ul {
-    margin: 20px; 
+footer ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin: 20px; 
 }
 
-.content ul a {
+footer ul a {
     color: black;
     text-decoration: none;
 }
 
-.content ul a:hover {
+footer ul a:hover {
     color: var(--purple);
     transition: .5s ease-in;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #scott-picture {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #gallery a {
+        width: 25%; 
+    }
 }
 
 @media (max-width: 480px) {
@@ -145,15 +147,3 @@ body {
         font-size: 200%;
     }
 }
-
-@media (max-width: 1024px) {
-    .header h1, .header nav, #subtitle, .content {
-        font-size: 250%;
-    }
-}
-
-@media screen and (max-width: 480px){
-    #gallery {
-    flex-direction: column
-    }
-  }
