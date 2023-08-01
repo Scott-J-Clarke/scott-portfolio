@@ -53,6 +53,9 @@ Thank you to Amber Diehl for organizing our study group!
 
 Thank you to Matteo Ramazzini for teaching me the CSS "ease-in" effects!
 
+Photo by <a href="https://unsplash.com/@elliottengelmann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Elliott Engelmann</a> on <a href="https://unsplash.com/backgrounds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
 ---
 
 ## License
