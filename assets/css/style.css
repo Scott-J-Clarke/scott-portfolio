@@ -1,58 +1,41 @@
 :root {
     --white: #ffffff;
-    --purple: #8A2BE2;
+    --mediumPurple: #9370DB;
     --yellow: #FFD700;
     --box: solid #8A2BE2 15px;
 }
 
 body {
+    /* Will add in Google Fonts --> Libre Baskerville */
+    color: black;
     font-family: 'Corbel', 'Bahnschrift', sans-serif;
-    /* background-color: var(--white); */
-}
-
-header {
-    /* display: flex;
-    flex-wrap: wrap; */
-
-    padding: 2.5%; 
-    
-    /* background-color: var(--purple); */
-    /* color: var(--white); */
+    font-size: 36px;
 }
 
 #top-header {
-    width: 100%;
-    background-image: url("/assets/images/sunrise.jpg");
+    display: flex;
+    background-color: var(--mediumPurple);
+    padding: 25px; 
 }
 
 h1 {
-    display: inline-block;
     font-size: 48px;
-    color: var(--purple);
-    background-color: var(--yellow) ;
-    padding: 0;
-    margin: 0;
-    /* padding-left: 1%; */
-}
-
-nav {
-    font-size: 36px;
+    color: khaki;
+    background-color: black;
+    padding: 15px;
+    border-radius: 30px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    /*display: inline-block;
-    padding-right: 180px;
-    padding-left: 180px; */
-}
+    /* padding: 0; */
+    /* margin: 0; */
+} 
 
-nav li {
+    nav li {
     display: inline;
-    float: right;
-}
+    /* float: right; */
+} 
 
 header a {
     color: var(--white);
@@ -62,6 +45,11 @@ header a {
 header a:hover {
     color: var(--yellow);
     transition: 1s ease-in;
+}
+
+#second-header {
+    width: 100%;
+    background-image: url("/assets/images/sunrise.jpg");
 }
 
 #about-me, #work, #contact-me {
