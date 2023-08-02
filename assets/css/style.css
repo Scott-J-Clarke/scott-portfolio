@@ -1,8 +1,8 @@
 :root {
     --white: #ffffff;
     --mediumPurple: #9370DB;
-    --yellow: #FFD700;
-    --box: solid #8A2BE2 15px;
+    --khaki: #F0E68C;
+    --box: solid #9370DB 15px;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     font-size: 36px;
 }
 
-#top-header {
+header {
     display: flex;
     background-color: var(--mediumPurple);
     padding: 25px; 
@@ -20,21 +20,24 @@ body {
 
 h1 {
     font-size: 48px;
-    color: khaki;
+    color: var(--khaki);
     background-color: black;
     padding: 15px;
     border-radius: 30px;
 }
 
-nav ul {
-    list-style-type: none;
-    /* padding: 0; */
-    /* margin: 0; */
+#navigation-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    align-items: center;
 } 
 
-    nav li {
-    display: inline;
-    /* float: right; */
+nav a {
+    margin: 20px 20px;
 } 
 
 header a {
@@ -43,7 +46,7 @@ header a {
 }
 
 header a:hover {
-    color: var(--yellow);
+    color: var(--khaki);
     transition: 1s ease-in;
 }
 
@@ -107,7 +110,7 @@ footer ul a {
 }
 
 footer ul a:hover {
-    color: var(--purple);
+    color: var(--mediumPurple);
     transition: .5s ease-in;
     cursor: pointer;
 }
