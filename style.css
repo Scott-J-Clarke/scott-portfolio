@@ -1,0 +1,140 @@
+:root {
+    --white: #ffffff;
+    --mediumPurple: #9370DB;
+    --khaki: #F0E68C;
+    --box: solid #9370DB 15px;
+}
+
+body {
+    /* Will add in Google Fonts --> Libre Baskerville */
+    color: black;
+    font-family: 'Corbel', 'Bahnschrift', sans-serif;
+    font-size: 36px;
+}
+
+header {
+    display: flex;
+    background-color: var(--mediumPurple);
+    padding: 25px; 
+}
+
+h1 {
+    font-size: 48px;
+    color: var(--khaki);
+    background-color: black;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#navigation-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+} 
+
+nav a {
+    margin: 20px 20px;
+} 
+
+header a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--khaki);
+    transition: 1s ease-in;
+}
+
+#second-header {
+    width: 100%;
+    background-image: url("/assets/images/sunrise.jpg");
+}
+
+#about-me, #work, #contact-me {
+    font-size: 150%;
+}
+
+.content {
+    margin: 2%;
+    font-size: 24px;
+} 
+
+#about-me-format {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: var(--box);  
+}
+
+#scott-picture { 
+    height: auto;
+    width: 15%;
+    object-fit: contain;
+    margin: 1%;
+}
+
+#work-subtitle {
+    font-weight: normal;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    border: var(--box);
+    padding: 1%;
+}
+
+#podcast-page, #tpt-logo, #thoughts-all-sizes {
+    height: auto;
+    width: 75%;
+    object-fit: contain;
+    margin: 1%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+footer ul a {
+    color: black;
+    text-decoration: none;
+}
+
+footer ul a:hover {
+    color: var(--mediumPurple);
+    transition: .5s ease-in;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 768px) {
+    #scott-picture {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #gallery a {
+        width: 25%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1, .header nav, #subtitle, .content {
+        font-size: 150%;
+    }
+} 
+
+@media (max-width: 768px) {
+    .header h1, .header nav, #subtitle, .content {
+        font-size: 200%;
+    }
+} */
