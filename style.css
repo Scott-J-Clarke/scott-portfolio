@@ -16,17 +16,13 @@
     opacity: 0.7;
 }
 
-.image {
-    position: relative;
+.custom-margin-between {
+    margin-top: -150px;
 }
 
-.app-title {
-    position: absolute;
-    top: 60%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    background: #FFE08A;
-    color: black;
-    padding: 10px;
-    border-radius: 4px;
+.image-container {
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
 }
