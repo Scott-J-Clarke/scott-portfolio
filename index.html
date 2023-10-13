@@ -9,9 +9,10 @@
     <title>Scott Clarke's Portfolio</title>
 </head>
 
-<!-- Should I remove "is-size-'number'- touch..." from each class? -->
+
 <header class="has-background-black has-text-white p-4">
-    <h1 class="is-inline-block is-size-1 is-size-3-touch is-size-5-mobile pl-4 pr-4">Scott Clarke</h1>
+    <!-- Should I remove "is-size-'number'- touch..." from each class? -->
+    <h1 class="is-inline-block is-size-1 has-text-weight-bold is-size-3-touch is-size-5-mobile pl-4 pr-4">Scott Clarke</h1>
 
     <nav class="is-inline-block is-pulled-right is-size-3 is-size-5-touch is-size-7-mobile">
         <a class="navbar-item-custom ml-4 mr-4" href="#about-me">About me</a>
@@ -35,7 +36,7 @@
 <body>
     <div class="columns">
         <div class="column is-one-third has-text-centered">
-            <h2 id="about-me" class="is-size-3 pt-2 pb-4">About me</h2>
+            <h2 id="about-me" class="is-size-1 has-text-weight-bold pt-2 pb-4">About me</h2>
             <figure class="image is-centered is-inline-block">
                 <img class="image is-128x128 is-rounded" src="assets/images/scott-photo.JPG" alt="Scott Clarke picture">
             </figure>
@@ -67,13 +68,13 @@
 
     <div class="columns">
         <div class="column is-one-third has-text-centered">
-            <h2 id="work" class="is-size-3 pt-2 pb-4">Work</h2>
+            <h2 id="work" class="is-size-1 has-text-weight-bold pt-2 pb-4">Work</h2>
         </div>
 
         <div class="column custom-centered is-hoverable pl-5 pr-5">
             <a href="https://groovy-tech-blog-v2-9abbdd8362ed.herokuapp.com/post/3">
                 <figure class="image" style="width: 800px; height: 800px;">
-                    <img class="hover-opacity with-border" src="assets/images/dose-of-tech-image.jpg"
+                    <img class="with-border" id="dose-of-tech" src="assets/images/dose-of-tech-image.jpg"
                         alt="Transistor close up">
                     <div class="is-flex is-justify-content-space-between">
                         <p class="is-inline-block">Dose of Daily Tech</p>
@@ -94,7 +95,7 @@
         <div class="column is-one-third pl-5 pr-5">
             <a href="https://note-taker-version-2-2379b1830cc5.herokuapp.com/">
                 <figure class="image is-4by3">
-                    <img class="hover-opacity with-border" src="assets/images/note-taker-image.jpg" alt="Notebook">
+                    <img class="with-border" id="note-taker" src="assets/images/note-taker-image.jpg" alt="Notebook">
                 </figure>
                 <div class="is-flex is-justify-content-space-between">
                     <p class="is-inline-block">Note Taker</p>
@@ -108,7 +109,7 @@
     <div class="column is-one-third pl-5 pr-5">
         <a href="https://github.com/Scott-J-Clarke/logo-generator">
             <figure class="image is-4by3">
-                <img class="hover-opacity with-border" src="assets/images/logo-generator-image.jpg"
+                <img class="with-border" id="logo-generator" src="assets/images/logo-generator-image.jpg"
                     alt="Person drawing">
             </figure>
             <div class="is-flex is-justify-content-space-between">
@@ -130,7 +131,7 @@
         <div class="column is-one-third pl-5 pr-5">
             <a href="https://github.com/Scott-J-Clarke/whats-the-weather">
                 <figure class="image is-4by3">
-                    <img class="hover-opacity with-border" src="/assets/images/whats-the-weather-image.jpg"
+                    <img class="with-border" id="whats-the-weather" src="/assets/images/whats-the-weather-image.jpg"
                         alt="Clouds">
                 </figure>
                 <div class="is-flex is-justify-content-space-between">
@@ -145,7 +146,7 @@
     <div class="column is-one-third pl-5 pr-5">
         <a href="https://github.com/Scott-J-Clarke/working-day-calendar">
             <figure class="image is-4by3">
-                <img class="hover-opacity with-border" src="/assets/images/working-day-calendar-image.jpg"
+                <img class="with-border" id="working-calendar" src="/assets/images/working-day-calendar-image.jpg"
                     alt="Day Planner">
             </figure>
             <div class="is-flex is-justify-content-space-between">
@@ -162,7 +163,7 @@
 <footer>
     <div class="columns">
         <div class="column is-one-third has-text-centered">
-            <h2 id="contact-me" class="is-size-3 pt-2 pb-4">Contact me</h2>
+            <h2 id="contact-me" class="is-size-1 has-text-weight-bold pt-2 pb-4">Contact me</h2>
         </div>
         <div class="column is-size-4 is-flex is-justify-content-space-between is-hoverable pl-5 pr-5">
             <a href="mailto:sjdoublec@gmail.com">Email</a>

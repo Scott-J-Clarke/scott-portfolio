@@ -17,13 +17,35 @@
     color: #FFE08A;
 }
 
+#dose-of-tech:hover {
+    color: #ffb6c1
+}
+
+#note-taker:hover {
+    color: 	#90ee90;
+}
+
+#logo-generator:hover {
+    color: #b0c4de;
+}
+
+#whats-the-weather:hover {
+    color: 	#e0ffff;
+}
+
+#working-calendar:hover {
+    color: 	#20b2aa;
+}
+
+/* Problem with opacity and border color turning "off" at slightly different times:
+
 .hover-opacity {
     transition: opacity 0.3s;
 }
 
 .hover-opacity:hover {
     opacity: 0.7;
-}
+} */
 
 .custom-margin-between {
     margin-top: -150px;
