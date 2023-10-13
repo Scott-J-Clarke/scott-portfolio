@@ -1,3 +1,12 @@
+.navbar-item-custom {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-item-custom:hover {
+    color: #FFE08A;
+}
+
 .custom-centered {
     display: flex;
     justify-content: center;
@@ -19,10 +28,3 @@
 .custom-margin-between {
     margin-top: -150px;
 }
-
-/* .image-container {
-    width: 600px;
-    height: 600px;
-    padding: 20px;
-    box-sizing: border-box;
-} */
