@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/ico" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="/style.css">
     <title>Scott Clarke's Portfolio</title>
@@ -11,8 +12,8 @@
 
 
 <header class="has-background-black has-text-white p-4">
-    <!-- Should I remove "is-size-'number'- touch..." from each class? -->
-    <h1 class="is-inline-block is-size-1 has-text-weight-bold is-size-3-touch is-size-5-mobile pl-4 pr-4">Scott Clarke</h1>
+    <h1 class="is-inline-block is-size-1 has-text-weight-bold is-size-3-touch is-size-5-mobile pl-4 pr-4">Scott Clarke
+    </h1>
 
     <nav class="is-inline-block is-pulled-right is-size-3 is-size-5-touch is-size-7-mobile">
         <a class="navbar-item-custom ml-4 mr-4" href="#about-me">About me</a>
@@ -24,7 +25,8 @@
         <div class="second-header-background">
             <img src="assets/images/sunrise.jpg" style="width: 100vw" alt="Background Sunrise">
             <div class="has-text-white is-size-2 has-text-right">
-                <h2 class="is-inline-block is-size-4-touch is-size-6-mobile pl-4 pr-4">Listener, Learner, Reader, Writer</h2>
+                <h2 class="is-inline-block is-size-4-touch is-size-6-mobile pl-4 pr-4">Listener, Learner, Reader, Writer
+                </h2>
             </div>
         </div>
         <p class="has-text-right mr-4">Photo by <a class="has-text-warning"
@@ -34,65 +36,58 @@
 </header>
 
 <body>
-    <div class="columns">
-        <div class="column is-one-third has-text-centered">
-            <h2 id="about-me" class="is-size-1 has-text-weight-bold pt-2 pb-4">About me</h2>
-            <figure class="image is-centered is-inline-block">
-                <img class="image is-128x128 is-rounded" src="assets/images/scott-photo.JPG" alt="Scott Clarke picture">
-            </figure>
-        </div>
-
-        <div class="column">
-            <p class="column is-size-4 pt-4 pb-4">
-                <span class="is-italic">What does it mean to be a listener, learner, reader, and writer?</span><br><br>
-
-                As a teacher for 15 years, I did a lot of listening. I listened to students, colleagues, and
-                parents. I learned to listen closely, to give each person my full attention, and to paraphrase
-                back what I thought they had just said, asking the person to correct me.<br><br>
-
-                I enjoy learning. In the past year, I've learned how to build basic web applications using
-                technologies like JavaScript, Node.js, Handlebars, and Bulma. I've learned how to deploy these
-                creations to GitHub and Heroku.<br><br>
-
-                I like to read. I did my undergraduate degree in English and history, which meant I was reading for
-                hours and hours each day. As a teacher, I read to prepare better lessons, and as a programmer I
-                read to improve my code.<br><br>
-
-                Writing is thinking. It's last on this list because when I write I gather in what I've heard,
-                learned, and read, and try to create something unique with it. Writing is simple, but not easy, and
-                it's something I love to do.
-            </p>
-            <hr>
-        </div>
-    </div>
-
-    <div class="columns">
-        <div class="column is-one-third has-text-centered">
-            <h2 id="work" class="is-size-1 has-text-weight-bold pt-2 pb-4">Work</h2>
-        </div>
-
-        <div class="column custom-centered is-hoverable pl-5 pr-5">
-            <a href="https://groovy-tech-blog-v2-9abbdd8362ed.herokuapp.com/post/3">
-                <figure class="image" style="width: 800px; height: 800px;">
-                    <img class="with-border" id="dose-of-tech" src="assets/images/dose-of-tech-image.jpg"
-                        alt="Transistor close up">
-                    <div class="is-flex is-justify-content-space-between">
-                        <p class="is-inline-block">Dose of Daily Tech</p>
-            </a>
-            <p class="is-inline-block has-text-right mr-4">Photo by <a
-                    href="https://unsplash.com/@alexkixa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexandre
-                    Debiève</a> on Unsplash</p>
-        </div>
+    <div class="column has-text-centered">
+        <h2 id="about-me" class="is-size-1 is-size-3-touch is-size-5-mobile has-text-weight-bold pt-2 pb-2">About me</h2>
+        <figure class="image is-centered is-inline-block">
+            <img class="image is-128x128 is-rounded" src="assets/images/scott-photo.JPG" alt="Scott Clarke picture">
         </figure>
     </div>
+
+    <div class="column">
+        <p class="column is-size-3 is-size-5-touch is-size-7-mobile p-4">
+            <span class="is-italic">What does it mean to be a listener, learner, reader, and writer?</span><br><br>
+
+            As a teacher for 15 years, I did a lot of listening. I listened to students, colleagues, and
+            parents. I learned to listen closely, to give each person my full attention, and to paraphrase
+            back what I thought they had just said, asking the person to correct me. If you listen well, you can help
+            someone sort out what they think.<br><br>
+
+            If you listen, you will learn. In the past year, I've learned how to build basic web applications using
+            technologies like MongoDB, Express, React, Node.js, and JavaScript. I've learned how to write documentation
+            and deploy these creations to GitHub and Heroku.<br><br>
+
+            I enjoy reading. I did my undergraduate degree in English and history, which meant I was reading for
+            hours and hours each day. As a teacher, I read to prepare better lessons, and as a programmer I
+            read to improve my code.<br><br>
+
+            Writing is thinking. It's last on this list because when I write I gather in what I've heard,
+            learned, and read, and try to create something with it. Writing is simple but not easy.
+
+        </p>
+        <hr>
     </div>
 
-    <div class="columns custom-margin-between">
-        <div class="column is-one-third">
-            <!-- For spacing purposes, this will remain an empty section. -->
+        <div class="has-text-centered">
+            <h2 id="work" class="is-size-1 has-text-weight-bold is-size-3-touch is-size-5-mobile pt-2 pb-2">Work</h2>
         </div>
-
-        <div class="column is-one-third pl-5 pr-5">
+        
+        
+            <div class="custom-centered is-hoverable pl-5 pr-5 pt-5 pb-5">
+                <a href="https://groovy-tech-blog-v2-9abbdd8362ed.herokuapp.com/post/3">
+                    <figure>
+                        <img class="with-border" id="dose-of-tech" src="assets/images/dose-of-tech-image.jpg"
+                            alt="Transistor close up">
+                        <div class="is-flex is-justify-content-space-between">
+                            <p class="is-inline-block">Dose of Daily Tech</p>
+                </a>
+                <p class="is-inline-block has-text-right mr-4">Photo by <a
+                        href="https://unsplash.com/@alexkixa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexandre Debiève</a> on Unsplash</p>
+                        </div>
+                    </figure>
+            </div>
+           
+    <div class="columns pl-5 pr-5 pt-5 pb-5">
+        <div class="column is-half">
             <a href="https://note-taker-version-2-2379b1830cc5.herokuapp.com/">
                 <figure class="image is-4by3">
                     <img class="with-border" id="note-taker" src="assets/images/note-taker-image.jpg" alt="Notebook">
@@ -101,34 +96,27 @@
                     <p class="is-inline-block">Note Taker</p>
             </a>
             <p class="has-text-right mr-4">Photo by <a
-                    href="https://unsplash.com/@aaronburden?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron
-                    Burden</a> on Unsplash</p>
+                    href="https://unsplash.com/@aaronburden?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron Burden</a> on Unsplash</p>
+                </div>
+        </div>
+
+        <div class="column is-half">
+            <a href="https://github.com/Scott-J-Clarke/logo-generator">
+                <figure class="image is-4by3">
+                    <img class="with-border" id="logo-generator" src="assets/images/logo-generator-image.jpg"
+                        alt="Person drawing">
+                </figure>
+                <div class="is-flex is-justify-content-space-between">
+                    <p class="is-inline-block">Logo Generator</p>
+            </a>
+            <p class="has-text-right mr-4">Photo by <a
+                    href="https://unsplash.com/@nevenkrcmarek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Neven Krcmarek</a> on Unsplash</p>
+                </div>
         </div>
     </div>
 
-    <div class="column is-one-third pl-5 pr-5">
-        <a href="https://github.com/Scott-J-Clarke/logo-generator">
-            <figure class="image is-4by3">
-                <img class="with-border" id="logo-generator" src="assets/images/logo-generator-image.jpg"
-                    alt="Person drawing">
-            </figure>
-            <div class="is-flex is-justify-content-space-between">
-                <p class="is-inline-block">Logo Generator</p>
-        </a>
-        <p class="has-text-right mr-4">Photo by <a
-                href="https://unsplash.com/@nevenkrcmarek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Neven
-                Krcmarek</a> on Unsplash</p>
-    </div>
-    </div>
-
-    </div>
-
-    <div class="columns">
-        <div class="column is-one-third">
-            <!-- For spacing purposes, this will remain an empty section. -->
-        </div>
-
-        <div class="column is-one-third pl-5 pr-5">
+    <div class="columns pl-5 pr-5 pt-5 pb-5">
+        <div class="column is-half">
             <a href="https://github.com/Scott-J-Clarke/whats-the-weather">
                 <figure class="image is-4by3">
                     <img class="with-border" id="whats-the-weather" src="/assets/images/whats-the-weather-image.jpg"
@@ -138,39 +126,34 @@
                     <p class="is-inline-block">What's the Weather</p>
             </a>
             <p class="has-text-right mr-4>">Photo by <a
-                    href="https://unsplash.com/@billy_huy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Billy
-                    Huynh</a> on Unsplash</p>
+                    href="https://unsplash.com/@billy_huy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Billy Huynh</a> on Unsplash</p>
+                </div>
         </div>
-    </div>
 
-    <div class="column is-one-third pl-5 pr-5">
-        <a href="https://github.com/Scott-J-Clarke/working-day-calendar">
-            <figure class="image is-4by3">
-                <img class="with-border" id="working-calendar" src="/assets/images/working-day-calendar-image.jpg"
-                    alt="Day Planner">
-            </figure>
-            <div class="is-flex is-justify-content-space-between">
-                <p class="is-inline-block">Working Day Calendar</p>
-        </a>
-        <p class="has-text-right mr-4">Photo by <a
-                href="https://unsplash.com/@erothermel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Eric
-                Rothermel</a> on Unsplash</p>
-    </div>
-    </div>
+        <div class="column is-half">
+            <a href="https://github.com/Scott-J-Clarke/working-day-calendar">
+                <figure class="image is-4by3">
+                    <img class="with-border" id="working-calendar" src="/assets/images/working-day-calendar-image.jpg"
+                        alt="Day Planner">
+                </figure>
+                <div class="is-flex is-justify-content-space-between">
+                    <p class="is-inline-block">Working Day Calendar</p>
+            </a>
+            <p class="has-text-right mr-4">Photo by <a
+                    href="https://unsplash.com/@erothermel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Eric Rothermel</a> on Unsplash</p>
+                </div>            
+        </div>
     </div>
 </body>
 
 <footer>
-    <div class="columns">
-        <div class="column is-one-third has-text-centered">
-            <h2 id="contact-me" class="is-size-1 has-text-weight-bold pt-2 pb-4">Contact me</h2>
-        </div>
-        <div class="column is-size-4 is-flex is-justify-content-space-between is-hoverable pl-5 pr-5">
-            <a href="mailto:sjdoublec@gmail.com">Email</a>
-            <a href="https://github.com/Scott-J-Clarke">GitHub</a>
-            <a href="https://www.linkedin.com/in/scottjcclarke/">LinkedIn</a>
-        </div>
+    <div class="has-text-centered">
+        <h2 id="contact-me" class="is-size-1 has-text-weight-bold is-size-3-touch is-size-5-mobile pt-2 pb-2">Contact me</h2>
+        <ul class="is-size-3 pb-5">
+            <li><a href="mailto:scott_jc_clarke@hotmail.com">Email</a></li>
+            <li><a href="https://github.com/Scott-J-Clarke">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/scottjcclarke/">LinkedIn</a></li>
+        </ul>
     </div>
 </footer>
-
 </html>
