@@ -2,40 +2,29 @@
 
 ## Description
 
-This is my personal portfolio to display coding projects. It was built with HTML and CSS.
+The main purpose of this portfolio is to display my coding projects. 
 
-Since I currently have no programming work to display, I put in links to other online work I've done in the past year.
+It was built with HTML, Bulma, and some custom CSS.
 
-The links are to my:
+I have linked five projects:
 
-- Teachers Pay Teachers Store
-- fantasy basketball podcast
-- Substack
-- Movember page
+- "Daily Dose of Tech" is a blog-style, full stack web application, using the MVC framework
+- "Note Taker" is meant for a user to write, save, and review notes
+- "Logo Generator" lets a user make a customized logo
+- "What's the Weather?" informs users about weather conditions around the world
+- "Working Day Calendar" allows a user to track and tackle their daily to-do list
 
-I will replace these links with actual coding projects when I have projects to share.
+Through building this portfolio, I:
 
-Through making this webpage I:
-
-- used CSS variables
-- gained more experience with flexbox
-- learned how to insert my own images
-- got to insert some fun CSS "ease-in" effects
-
-This project was written over a few days with the help of several classmates.
-
-Finally, this project is incomplete. As I gain more coding experience, I plan on improving this webpage by:
-
-- having the "work" images better fit within their purple box
-- fixing the media queries so that "work" images actually get smaller
-- add a hovering "tooltip" description for each of the four "work" images
-- tighten up the margins and padding between the purple boxes so the webpage looks better overall
+- gained experience using Bulma
+- better understand how to add-in custom CSS
+- received some helpful design and layout advice from a TA
 
 ---
 
 ## Installation
 
-This personal portfolio page can be viewed online at:
+This portfolio can be viewed online at:
 
 [scott-portfolio](https://scott-j-clarke.github.io/scott-portfolio/)
 
@@ -43,18 +32,19 @@ This personal portfolio page can be viewed online at:
 
 ## Usage
 
-Look at this website homepage through Chrome "developer tools" to learn a little about HTML and CSS. 
+If you are new to coding, look at this portfolio using Chrome's "Developer tools" to gain insights into how HTML, Bulma, and CSS interact with each other.
 
 ---
 
 ## Credits
 
-Thank you to Amber Diehl for organizing our study group!
+Thank you Tye for your design and layout advice!
 
-Thank you to Matteo Ramazzini for teaching me the CSS "ease-in" effects!
+Thank you Amber for organizing our weekly study group!
 
-Photo by <a href="https://unsplash.com/@elliottengelmann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Elliott Engelmann</a> on <a href="https://unsplash.com/backgrounds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+Thank you Matteo for teaching me the CSS "ease-in" effects!
+
+All photos from Unsplash have been credited on the portfolio page.
 
 ---
 
@@ -66,6 +56,4 @@ MIT
 
 ## Screenshot
 
-![Alt text](image.png)
-
----
+![Alt text](assets/images/screenshot-image.png)
